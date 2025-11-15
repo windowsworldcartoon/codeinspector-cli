@@ -1,5 +1,5 @@
 {
-  "name": "@codeinspector/cli",
+  "name": "@windowsworldcartoon/codeinspector-cli",
   "version": "1.0.0",
   "description": "Command line interface for CodeInspector",
   "type": "module",

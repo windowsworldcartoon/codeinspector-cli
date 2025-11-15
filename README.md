@@ -1,17 +1,17 @@
-# @codeinspector/cli
+# @windowsworldcartoon/codeinspector-cli
 
 Command line interface for managing CodeInspector extensions.
 
 ## Installation
 
 ```bash
-npm install -g @codeinspector/cli
+npm install -g @windowsworldcartoon/codeinspector-cli
 ```
 
 Or use locally in your project:
 
 ```bash
-npm install --save-dev @codeinspector/cli
+npm install --save-dev @windowsworldcartoon/codeinspector-cli
 npx codeinspector [command]
 ```
 
@@ -141,7 +141,7 @@ my-extension/
 ### index.js
 
 ```javascript
-const Extension = require('@codeinspector/extension-handler');
+const Extension = require('@windowsworldcartoon/codeinspector-extension-handler');
 
 class MyExtension extends Extension {
   activate() {
