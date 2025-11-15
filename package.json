@@ -1,0 +1,40 @@
+{
+  "name": "@codeinspector/cli",
+  "version": "1.0.0",
+  "description": "Command line interface for CodeInspector",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "codeinspector": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "codeinspector",
+    "cli",
+    "command-line"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windowsworldcartoon/codeinspector-cli"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2",
+    "axios": "^1.4.0",
+    "simple-git": "^3.15.0",
+    "github": "^13.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
