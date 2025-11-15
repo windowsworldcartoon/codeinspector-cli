@@ -189,6 +189,7 @@ dist/
         'compilerOptions': {
           'target': 'ES2020',
           'module': 'ESNext',
+          'moduleResolution': 'node',
           'lib': ['ES2020'],
           'declaration': true,
           'declarationMap': true,
