@@ -108,11 +108,6 @@ codeinspector dev
 # When ready to publish
 codeinspector publish
 
-# Update version
-npm version patch
-
-# Publish to npm
-npm publish
 ```
 
 ## Extension Structure
