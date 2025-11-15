@@ -121,7 +121,7 @@ export default async function create(options) {
       type: 'module',
       author: manifest.author,
       dependencies: {
-        '@codeinspector/extension-handler': '^1.0.0'
+        '@windowsworldcartoon/codeinspector-extension-handler': '^1.0.0'
       }
     };
 
@@ -243,7 +243,7 @@ function pascalCase(str) {
 }
 
 function generateJavaScriptTemplate(name, manifest) {
-  return `import Extension from '@codeinspector/extension-handler';
+   return `import Extension from '@windowsworldcartoon/codeinspector-extension-handler';
 
 class ${pascalCase(name)}Extension extends Extension {
   activate() {
@@ -295,7 +295,7 @@ export default ${pascalCase(name)}Extension;
 }
 
 function generateTypeScriptTemplate(name, manifest) {
-  return `import Extension, { CommandMenuConfig, MenuConfig } from '@codeinspector/extension-handler';
+   return `import Extension, { CommandMenuConfig, MenuConfig } from '@windowsworldcartoon/codeinspector-extension-handler';
 
 class ${pascalCase(name)}Extension extends Extension {
   activate(): void {
